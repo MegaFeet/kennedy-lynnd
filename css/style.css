@@ -45,14 +45,14 @@ body a:hover{
 }
 .header-left img {
     width: 100%;
-    border: 5px solid rgba(255, 255, 255, 0.68);
+    border: 5px solid rgba(0, 0, 0, 0.68);
 }
 .header-right {
     padding-left: 3em;
 }
 .header-right h1 {
     font-size: 2.5em;
-    color: #fff;
+    color: #000000;
     margin: 0.5em 0 0;
 }
 .header-right h2 {
@@ -91,7 +91,7 @@ ul.address li {
 ul.address li ul.address-text li {
     display: inline-block;
     font-size: 1.2em;
-    color: #fff;
+    color: #000000;
     margin-top: 1em;
 	font-weight: 100;
 }
