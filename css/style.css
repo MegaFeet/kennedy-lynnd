@@ -9,6 +9,14 @@ body{
 	font-family: 'Roboto Condensed', sans-serif;
 	background: #fff;
 }
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration:none;
+}
 h1,h2,h3,h4,h5,h6{
 	margin:0;	
 	font-family: 'Overlock', cursive;
@@ -31,17 +39,20 @@ body a:hover{
 	-moz-background-size:cover;
 	position: relative;
 }
-
+.banner-info{
+	background: url(../images/dott.png)repeat 0px 0px;
+	padding: 4em 0;
+}
 .header-left img {
     width: 100%;
-    border: 5px solid rgba(0, 0, 0, 0.68);
+    border: 5px solid rgba(255, 255, 255, 0.68);
 }
 .header-right {
     padding-left: 3em;
 }
 .header-right h1 {
     font-size: 2.5em;
-    color: #000000;
+    color: #fff;
     margin: 0.5em 0 0;
 }
 .header-right h2 {
@@ -80,7 +91,7 @@ ul.address li {
 ul.address li ul.address-text li {
     display: inline-block;
     font-size: 1.2em;
-    color: #000000;
+    color: #fff;
     margin-top: 1em;
 	font-weight: 100;
 }
